@@ -15,4 +15,5 @@ const  MenuItems({required this.title, required this.subTitle, required this.lin
 const appMenuItems = <MenuItems>[
   MenuItems(title: "Botones", subTitle: "Varios botones", link: "/buttons", icon: Icons.smart_button_outlined),
   MenuItems(title: "Tarjetas", subTitle: "Contenedor estilizado", link: "/cards", icon: Icons.credit_card ),
+  MenuItems(title: "ProgressIndicators", subTitle: "Generales y controlados", link: "/progress", icon: Icons.refresh_outlined ),
 ];

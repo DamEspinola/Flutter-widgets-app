@@ -23,6 +23,12 @@ final appRouter = GoRouter(
             return const CardsScreen();
           },
         ),
+        GoRoute(
+          path: 'progress',
+          builder: (BuildContext context, GoRouterState state) {
+            return const ProgressScreens();
+          },
+        ),
       ],
     ),
   ],
