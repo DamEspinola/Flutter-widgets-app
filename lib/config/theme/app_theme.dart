@@ -13,10 +13,12 @@ const colorsList = <Color>[
 class AppTheme {
   final int selectedColor;
 
-  AppTheme({this.selectedColor = 0})
+  AppTheme({
+    this.selectedColor = 0
+    })
       : assert(selectedColor >= 0, "Selected color must be greater then 0"),
         assert(selectedColor < colorsList.length,
-            "Selected color must be less or equal than ${colorsList.length }");
+            "Selected color must be less or equal than ${colorsList.length - 1 }");
 
   ThemeData getTheme() => ThemeData(
         colorSchemeSeed: colorsList[selectedColor],
