@@ -3,18 +3,14 @@
 A new Flutter project.
 
 
-<!-- ## 📱 Vista Previa
+## 📱 Vista Previa
 <div align="center">
   <img src="/lib/assets/widgets-01.png" width="700px"/>
-</div> -->
+</div>
 
 ## 🎥 Demo en Video
 
-<div align="center">
-  <video width="400" autoplay loop muted playsinline>
-    <source src="lib/assets/widgets-02.mp4" type="video/mp4">
-  </video>
-</div>
+[![Demo en Video](lib/assets/widgets-01.png)](lib/assets/widgets-02.mp4)
 
 
 
