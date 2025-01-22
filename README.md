@@ -11,8 +11,8 @@ A new Flutter project.
 ## 🎥 Demo en Video
 
 <div align="center">
-  <video width="400" controls>
-    <source src="/lib/assets/widgets-02.mov" type="video/mp4">
+  <video width="400" autoplay loop muted playsinline>
+    <source src="lib/assets/widgets-02.mov" type="video/mp4">
   </video>
 </div>
 
