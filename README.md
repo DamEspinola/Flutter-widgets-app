@@ -3,10 +3,10 @@
 A new Flutter project.
 
 
-## 📱 Vista Previa
+<!-- ## 📱 Vista Previa
 <div align="center">
   <img src="/lib/assets/widgets-01.png" width="700px"/>
-</div>
+</div> -->
 
 ## 🎥 Demo en Video
 
