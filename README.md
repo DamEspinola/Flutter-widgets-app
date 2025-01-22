@@ -12,7 +12,7 @@ A new Flutter project.
 
 <div align="center">
   <video width="400" autoplay loop muted playsinline>
-    <source src="lib/assets/widgets-02.mov" type="video/mov">
+    <source src="lib/assets/widgets-02.mp4" type="video/mp4">
   </video>
 </div>
 
