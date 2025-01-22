@@ -4,7 +4,7 @@ A new Flutter project.
 
 
 ## 📱 Vista Previa
-b[![Demo en Video](lib/assets/widgets-01.png)](lib/assets/widgets-02.mp4)
+[![Demo en Video](lib/assets/widgets-01.png)](lib/assets/widgets-02.mp4)
 
 
 
