@@ -1,22 +1,29 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:widgets_app/config/menu/menu_items.dart';
+import 'package:widgets_app/presentation/widgets/sidebar_menu.dart';
 
 class HomeScreens extends StatelessWidget {
-  const HomeScreens({super.key});
+   HomeScreens({super.key});
+
 
   @override
   Widget build(BuildContext context) {
+  
+  final scaffoldkey = GlobalKey<ScaffoldState>();
+
     return Scaffold(
+      key: scaffoldkey,
       appBar: AppBar(
         title: const Text("Hello Flutter"),
       ),
-      body: _homeView(),
+      body: _HomeView(),
+      drawer: SidebarMenu(scaffoldkey: scaffoldkey,),
     );
   }
 }
 
-class _homeView extends StatelessWidget {
+class _HomeView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     appMenuItems;
@@ -25,13 +32,13 @@ class _homeView extends StatelessWidget {
         itemCount: appMenuItems.length,
         itemBuilder: (context, index) {
           final menuItems = appMenuItems[index];
-          return _customListTitle(menuItems: menuItems);
+          return _CustomListTitle(menuItems: menuItems);
         });
   }
 }
 
-class _customListTitle extends StatelessWidget {
-  const _customListTitle({
+class _CustomListTitle extends StatelessWidget {
+  const _CustomListTitle({
     required this.menuItems,
   });
 
