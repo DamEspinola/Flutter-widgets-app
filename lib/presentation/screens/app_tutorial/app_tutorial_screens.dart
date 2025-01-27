@@ -106,7 +106,7 @@ class _AppTutorialScreensState extends State<AppTutorialScreens> {
                   right: 20,
                   child: FadeInRight(
                     from: 15,
-                    delay: const Duration(seconds: 1),
+                    delay: const Duration(milliseconds: 300),
                     child: FilledButton(
                         onPressed: () => context.pop(), child: Text('Comenzar')),
                   ))
