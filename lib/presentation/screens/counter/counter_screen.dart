@@ -20,8 +20,9 @@ class CounterScreen extends ConsumerWidget {
                   ? Icon(Icons.dark_mode)
                   : Icon(Icons.light_mode_outlined),
               onPressed: () {
+                ref.read(themeNotifierProvider.notifier).toggleDarkMode();
+
                 // ref.read(isDarkModeProvider.notifier).state = !isDarkMode;
-                ref.read(isDarkModeProvider.notifier).update((state) => !state );
               },
             )
           ],
